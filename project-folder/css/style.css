@@ -1,0 +1,391 @@
+*{
+    margin:0;
+    position: relative;
+    align-items: center;
+}
+.head{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    background-color: #ffaf56;
+}
+.logo{
+    width: 30%;
+}
+.logo a{
+    padding-left: 100px;
+}
+.logo a img{
+    width: 10vw;    
+}
+.head-empty{
+    width: 20%;
+}
+.links{
+    width:50%;
+}
+.unordered{
+    list-style-type: none;
+}
+.list{
+    display: inline;
+    margin: 20px;
+    font-size: 1.5vw;
+}
+.list a{
+    text-decoration: none;
+    color: #000000;
+}
+.header-end{
+    width: 100%;
+    height: 0.3vh;
+    top:10vh;
+    background-color: #fff;
+    position: sticky;
+    z-index: 1;
+}
+.header-end-r{
+    width: 100%;
+    height: 0.3vh;
+    top:10vh;
+    background-color: #000;
+    position: sticky;
+    z-index: 1;
+}
+
+/*start of section 1*/
+#home-section1{
+    width: 100%;
+    height:89.7vh;
+    background-color: aquamarine;
+    background-image: url(../images/hero-image.jpg);
+    background-size: cover;
+    display: flex;
+}
+.blank-space{
+    width: 40%;
+    height: 100%;
+}
+.section1-text-box{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.space-empty{
+    width: 100%;
+    height: 85%;
+}
+.section1-text{
+    background-color: #ffffff;
+    font-size: 25px;
+    padding:10px;
+    text-align: center;
+
+    
+}
+.empty-space{
+    width: 100%;
+    height: 5%;
+}
+/*section2*/ 
+#home-section2{
+    height:89.7vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   background-color: #fff;
+
+}
+.group-up{
+    max-width:1500px ;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.section2-title-area{
+    margin-top: 20px;
+    height: 10%;
+    width: 100%;
+}
+.section2-text-area{
+    height: 26%;
+    width: 100%;
+}
+.section2-title{
+    font-size: 2.3vw;
+}
+.section2-text{
+    word-wrap: break-word;
+    font-size: 1.95vw;
+}
+.category-items{
+    display: flex;
+    height: 50%;
+    justify-content:space-between;
+}
+.items{
+    width: 30%;
+    height:100%;
+
+}
+.items img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.item-text{
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 10px;
+}
+#home-section3{
+    height: 89.7vh;
+    width: 100%;
+    background-color: #dadfea;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.s3-items-box{
+    width: 80%;
+    display: flex;
+    height:50%;
+    justify-content: space-between;
+}
+.s3-items{
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.s3-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.s3-title{
+    font-size: 2.3vw;
+    margin-right: 52vw;
+    margin-bottom: 20px;
+}
+.s3-text{
+    word-wrap: break-word;
+    font-size: 1.95vw;
+    margin-bottom: 100px;
+    width: 80%;
+}
+.s3-item-text{
+    text-align: center;
+    font-size: 1vw;
+    height: 10%;
+    line-height: 4vh;
+
+}
+#home-section4{
+    min-height: 89.7vh;
+    max-height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s4-items-box{
+    display: flex;
+    height:40vh;
+    width: 80%;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.s4-items{
+    width:30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.borgor{
+    background: #aefdad url(../images/burger.jpg) no-repeat center center;
+}
+.pizza{
+    background: #aefdad url(../images/pizza.jpeg) no-repeat center center;
+}
+.guides{
+    background: #aefdad url(../images/guides.png) no-repeat center center;
+}
+.img{
+    width: 100%;
+    height:100%;
+    background-size: cover;
+    border: 13px solid #dadfea;
+}
+.img img{
+    visibility: hidden;
+}
+.s4-title{
+    font-size: 2.3vw;
+
+    margin-bottom: 50px;
+    margin-top:70px;
+    width: 80%;
+
+}
+.s4-text{
+    word-wrap: break-word;
+    font-size: 1.95vw;
+    width: 80%;
+    margin-bottom: 50px;
+}
+#foot{
+    background-color: #ffaf56;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+.wid{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.cr{
+    flex-grow: 2;
+}
+.list2{
+    display: inline;
+    margin: 0 20px;
+}
+#recipe-section1{
+    width: 100%;
+    height:89.7vh;
+    background-color: aquamarine;
+    background-image: url(../images/bengal-burger.jpg);
+    background-size: cover;
+    display: flex;
+}
+#info-section{
+    height: 20vh;
+    width: 100%;
+    background-color: #dadfea;
+    display: flex;
+    justify-content: center;
+}
+.witty{
+    width: 80%;
+}
+.info-title{
+    font-size: 3vw;
+}
+.info-area{
+    width: 50%;
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: left;
+
+}
+
+.i-text{
+    
+    font-size:1.7vw;
+    margin-right: 30px;
+    font-weight: 500;
+    
+}
+.bold{
+    font-weight: bold;
+}
+.i-text:first-child{
+    margin-right: 50px;
+}
+#recipe-section2{
+    width: 100%;
+    height: 89.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.info-man{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ratings{
+    display: flex;
+    margin: 20px 0;
+}
+.stars{
+    color:#aa1111
+}
+.btn{
+    cursor: pointer;
+}
+.bengal{
+    margin-top: 100px;
+    font-size: 2.5em;
+}
+.buttons{
+    margin-bottom: 40px ;
+}
+.save{
+    background-color: #ff6161;
+    border: 1px solid #ff6161;
+    border-radius: 20px;
+    font-size: 1.3em;
+}
+.print{
+    background-color: #ffffff;
+    border-radius: 50px;
+    font-size: 1.3em;
+}
+.recipe-text{
+    background-color: #eef0f4;
+    display: flex;
+    justify-content: center ;
+    width: 80%;
+    
+}
+.lots-of-text{
+    width: 80%;
+    font-size: 1.55vw;
+    margin: 40px 0;
+
+}
+.spice-mix{
+    list-style: none;
+    margin-top: 50px;
+}
+#direction-section{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 150px;
+    
+}
+.ingredients{
+    width: 50%;
+    font-size: 30px;
+    line-height: 50px;
+}
+.directions{
+    width: 50%;
+    font-size: 1.5em;
+    line-height: 50px;
+}
+.counter{
+    list-style: none ;
+    margin-top: 50px;
+}
+#video-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
